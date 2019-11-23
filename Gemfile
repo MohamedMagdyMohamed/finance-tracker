@@ -20,7 +20,20 @@ gem 'jbuilder', '~> 2.7'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
+
+# gem for jquery
+gem 'jquery-rails'
+
+#
+gem 'twitter-bootstrap-rails'
+
+# help to view the db in a table form in a rails console
+gem 'hirb'
+
+# Devise is a flexible authentication solution for Rails
+gem 'devise'
+gem 'devise-bootstrap-views'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
