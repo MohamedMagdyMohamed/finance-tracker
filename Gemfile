@@ -28,6 +28,10 @@ gem 'jquery-rails'
 #
 gem 'twitter-bootstrap-rails'
 
+# Real-time, stock data and historical pricing
+gem 'stock_quote', '~> 3.0.0'
+gem 'therubyracer'
+
 # help to view the db in a table form in a rails console
 gem 'hirb'
 
